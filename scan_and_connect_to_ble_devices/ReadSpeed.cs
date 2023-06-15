@@ -160,8 +160,8 @@ namespace BLE
             if (BitConverter.IsLittleEndian)
                 Array.Reverse(data);
 
-            int result = BitConverter.ToInt32(data, 0);
-            int output = result / 100000000;
+            int result = BitConverter.ToInt16(data, 2);
+            double output = result * 0.001;
             if (output < 0)
             {
                 output = output * (-1);
