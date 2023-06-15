@@ -1,0 +1,44 @@
+C:\Users\HHN\Desktop\Bluetooth\BLE\bin\Debug\BLE.exe.config
+C:\Users\HHN\Desktop\Bluetooth\BLE\bin\Debug\BLE.exe
+C:\Users\HHN\Desktop\Bluetooth\BLE\bin\Debug\BLE.pdb
+C:\Users\HHN\Desktop\Bluetooth\BLE\bin\Debug\System.Runtime.WindowsRuntime.dll
+C:\Users\HHN\Desktop\Bluetooth\BLE\bin\Debug\Windows.winmd
+C:\Users\HHN\Desktop\Bluetooth\BLE\obj\Debug\BLE.csproj.AssemblyReference.cache
+C:\Users\HHN\Desktop\Bluetooth\BLE\obj\Debug\BLE.csproj.CoreCompileInputs.cache
+C:\Users\HHN\Desktop\Bluetooth\BLE\obj\Debug\BLE.csproj.CopyComplete
+C:\Users\HHN\Desktop\Bluetooth\BLE\obj\Debug\BLE.exe
+C:\Users\HHN\Desktop\Bluetooth\BLE\obj\Debug\BLE.pdb
+C:\Users\HHN\Desktop\Bluetooth\BLE\obj\Debug\BLE.csproj.SuggestedBindingRedirects.cache
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\bin\Debug\BLE.exe.config
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\bin\Debug\BLE.exe
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\bin\Debug\BLE.pdb
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\bin\Debug\System.Runtime.WindowsRuntime.dll
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\bin\Debug\Windows.winmd
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\obj\Debug\BLE.csproj.AssemblyReference.cache
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\obj\Debug\BLE.csproj.SuggestedBindingRedirects.cache
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\obj\Debug\BLE.csproj.CoreCompileInputs.cache
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\obj\Debug\BLE.csproj.CopyComplete
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\obj\Debug\BLE.exe
+C:\Users\HHN\Desktop\Bluetooth\Scann and check for properties\obj\Debug\BLE.pdb
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\bin\Debug\BLE.exe.config
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\bin\Debug\BLE.exe
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\bin\Debug\BLE.pdb
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\bin\Debug\System.Runtime.WindowsRuntime.dll
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\bin\Debug\Windows.winmd
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\obj\Debug\BLE.csproj.AssemblyReference.cache
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\obj\Debug\BLE.csproj.SuggestedBindingRedirects.cache
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\obj\Debug\BLE.csproj.CoreCompileInputs.cache
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\obj\Debug\BLE.csproj.CopyComplete
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\obj\Debug\BLE.exe
+C:\Users\HHN\Desktop\New folder\Trainer\Scann and check for properties\obj\Debug\BLE.pdb
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\bin\Debug\BLE.exe.config
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\bin\Debug\BLE.exe
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\bin\Debug\BLE.pdb
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\bin\Debug\System.Runtime.WindowsRuntime.dll
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\bin\Debug\Windows.winmd
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\obj\Debug\BLE.csproj.AssemblyReference.cache
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\obj\Debug\BLE.csproj.SuggestedBindingRedirects.cache
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\obj\Debug\BLE.csproj.CoreCompileInputs.cache
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\obj\Debug\BLE.csproj.CopyComplete
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\obj\Debug\BLE.exe
+C:\Users\dunit\Desktop\Trainer\Scann and check for properties\obj\Debug\BLE.pdb
