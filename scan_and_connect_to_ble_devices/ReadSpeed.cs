@@ -14,6 +14,9 @@ namespace BLE
 {
     class ReadSpeed
     {
+
+        private static List<double> values = new List<double>();
+
         private static float previousSpeedInKph = 0f;
         private static int nonIncreasingCounter = 0;
 
@@ -140,6 +143,7 @@ namespace BLE
                         Console.WriteLine("\n press any key to exit");
                         Console.ReadKey();
                         break;
+
                     }
 
                 }
@@ -165,7 +169,14 @@ namespace BLE
             if (output < 0)
             {
                 output = output * (-1);
+                
+
             }
+            values.Add(output);
+
+
+
+
 
             // Assuming the speed data is in a specific format, parse and print the speed value
             // Modify the parsing logic based on the data format used by your device
@@ -186,9 +197,21 @@ namespace BLE
             }
             Console.WriteLine("-------------------------------");
             */
-
+            output = Normalize(output, 0, 35);
             Console.WriteLine("Speed: " + output);
 
+            /*
+            Console.WriteLine("--------------Start calibration -----------------");
+
+            Console.WriteLine(values.Count);
+           
+            double minValue = Min(values);
+            double maxValue = Max(values);
+
+            Console.WriteLine("Minimum value: " + minValue);
+            Console.WriteLine("Maximum value: " + maxValue);
+            Console.WriteLine("--------------End calibration -----------------");
+            */
         }
 
         private static void Characteristic_ValueChanged(GattCharacteristic sender, GattValueChangedEventArgs args)
@@ -229,5 +252,63 @@ namespace BLE
 
         }
 
+
+        static double Min(List<double> list)
+        {
+
+            double min = 0;
+            if (list == null || list.Count == 0)
+            {
+                Console.WriteLine("List is empty");
+            }
+            else
+            {
+                min  = list[0];
+            }
+
+            
+
+            for (int i = 1; i < list.Count; i++)
+            {
+                if (list[i] < min)
+                {
+                    min = list[i];
+                }
+            }
+
+            return min;
+        }
+
+        static double Max(List<double> list)
+        {
+            double max = 0;
+            if (list == null || list.Count == 0)
+            {
+                Console.WriteLine("List is empty");
+            }
+            else
+            {
+                max = list[0];
+            }
+
+            for (int i = 1; i < list.Count; i++)
+            {
+                if (list[i] > max)
+                {
+                    max = list[i];
+                }
+            }
+
+            return max;
+        }
+
+        public static double Normalize(double value, double min, double max)
+        {
+            double range = max - min;
+            double normalizedValue = (value - min) / range;
+            return normalizedValue;
+        }
     }
+
+
 }

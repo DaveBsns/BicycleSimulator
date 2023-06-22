@@ -45,8 +45,6 @@ C:\Users\dunit\Desktop\Trainer\Scann and check for properties\obj\Debug\BLE.pdb
 C:\Users\dunit\Desktop\SEM\MixedRealityLab\BicycleSimulator\scan_and_connect_to_ble_devices\bin\Debug\BLE.exe.config
 C:\Users\dunit\Desktop\SEM\MixedRealityLab\BicycleSimulator\scan_and_connect_to_ble_devices\bin\Debug\BLE.exe
 C:\Users\dunit\Desktop\SEM\MixedRealityLab\BicycleSimulator\scan_and_connect_to_ble_devices\bin\Debug\BLE.pdb
-C:\Users\dunit\Desktop\SEM\MixedRealityLab\BicycleSimulator\scan_and_connect_to_ble_devices\bin\Debug\System.Runtime.WindowsRuntime.dll
-C:\Users\dunit\Desktop\SEM\MixedRealityLab\BicycleSimulator\scan_and_connect_to_ble_devices\bin\Debug\Windows.winmd
 C:\Users\dunit\Desktop\SEM\MixedRealityLab\BicycleSimulator\scan_and_connect_to_ble_devices\obj\Debug\BLE.csproj.AssemblyReference.cache
 C:\Users\dunit\Desktop\SEM\MixedRealityLab\BicycleSimulator\scan_and_connect_to_ble_devices\obj\Debug\BLE.csproj.SuggestedBindingRedirects.cache
 C:\Users\dunit\Desktop\SEM\MixedRealityLab\BicycleSimulator\scan_and_connect_to_ble_devices\obj\Debug\BLE.csproj.CoreCompileInputs.cache
