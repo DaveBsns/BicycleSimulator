@@ -7,7 +7,7 @@
 const int HALL_PIN = 32;
 
 const char *ssid = "raspi-webgui";
-const char *password = "bikingismylife";
+const char *password = "ChangeMe";
 unsigned int localUdpPort = 8888;
 
 WiFiUDP udp;
