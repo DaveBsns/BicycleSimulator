@@ -8,8 +8,8 @@
 
 #include <ArduinoJson.h>
 
-const char *ssid = "raspi-webgui";
-const char *password = "bikingismylife";
+const char *ssid = "ORFL-WLAN";
+const char *password = "31032017";
 unsigned int localUdpPort = 8888;
 
 WiFiUDP udp;
