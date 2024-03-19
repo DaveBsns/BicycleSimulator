@@ -8,7 +8,7 @@ const int HALL_PIN = 32;
 
 //const char* ssid = "raspi-webgui";
 //const char* password = "bikingismylife";
-const char *ssid = "ORFL-WLAN_24";
+const char *ssid = "ORFL-WLAN";
 const char *password = "31032017";
 unsigned int localUdpPort = 6666;
 const unsigned long udpSendInterval = 500; // Interval for sending UDP packets in milliseconds
@@ -133,7 +133,7 @@ void loop() {
       Serial.println(packetBuffer);
     }
 
-    udp.beginPacket("192.168.9.185", 6666);
+    udp.beginPacket("10.30.77.40", 6666);
     udp.print(jsonStr);
     udp.endPacket();
 
