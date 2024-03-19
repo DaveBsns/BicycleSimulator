@@ -76,7 +76,7 @@ void loop()
 
 	serializeJson(doc, jsonStr);
 
-	udp.beginPacket("10.3.141.1", 8888);
+	udp.beginPacket("10.30.77.40", 8888);
 	udp.print(jsonStr);
 	udp.endPacket();
 

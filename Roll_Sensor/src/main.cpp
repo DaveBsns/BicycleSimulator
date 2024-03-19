@@ -133,7 +133,7 @@ void loop() {
       Serial.println(packetBuffer);
     }
 
-    udp.beginPacket("192.168.9.185", 6666);
+    udp.beginPacket("10.30.77.40", 6666);
     udp.print(jsonStr);
     udp.endPacket();
 
