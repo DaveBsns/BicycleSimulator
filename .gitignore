@@ -160,6 +160,7 @@ cython_debug/
 #.idea/
 
 ### VisualStudioCode ###
+Brake_Sensor/.vscode/*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
