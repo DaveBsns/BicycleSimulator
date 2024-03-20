@@ -8,8 +8,8 @@
 
 #include <ArduinoJson.h>
 
-const char *ssid = "ORFL-WLAN";
-const char *password = "31032017";
+const char *ssid = "Bicycle_Simulator_Network";
+const char *password = "17701266";
 unsigned int localUdpPort = 8888;
 
 WiFiUDP udp;
@@ -76,7 +76,7 @@ void loop()
 
 	serializeJson(doc, jsonStr);
 
-	udp.beginPacket("10.30.77.40", 8888);
+	udp.beginPacket("192.168.0.101", 8888);
 	udp.print(jsonStr);
 	udp.endPacket();
 

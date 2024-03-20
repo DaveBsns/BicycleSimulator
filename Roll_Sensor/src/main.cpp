@@ -8,8 +8,8 @@ const int HALL_PIN = 32;
 
 //const char* ssid = "raspi-webgui";
 //const char* password = "bikingismylife";
-const char *ssid = "ORFL-WLAN";
-const char *password = "31032017";
+const char *ssid = "Bicycle_Simulator_Network";
+const char *password = "17701266";
 unsigned int localUdpPort = 6666;
 const unsigned long udpSendInterval = 500; // Interval for sending UDP packets in milliseconds
 unsigned long lastUdpSendTime = 0; // Variable to store the last time UDP packet was sent
@@ -133,7 +133,7 @@ void loop() {
       Serial.println(packetBuffer);
     }
 
-    udp.beginPacket("10.30.77.40", 6666);
+    udp.beginPacket("192.168.0.101", 6666);
     udp.print(jsonStr);
     udp.endPacket();
 
