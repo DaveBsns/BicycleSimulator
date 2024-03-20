@@ -39,7 +39,7 @@ void loop()
   StaticJsonDocument<500> doc;
 
   String jsonStr;
-  doc["sensor"] = "BNO055";
+  doc["sensor"] = "Brake";
   doc["sensor_value"] = sensorValue;
 
   serializeJson(doc, jsonStr);
@@ -55,7 +55,7 @@ void loop()
     Serial.println(packetBuffer);
   }
 
-  udp.beginPacket("192.168.0.101", 8888);
+  udp.beginPacket("192.168.0.101", 7777);
   udp.print(jsonStr);
   udp.endPacket();
 
